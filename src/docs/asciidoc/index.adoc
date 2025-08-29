@@ -1,0 +1,26 @@
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+= API Docs
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 1
+:toc-title: 목록
+
+== 유저 생성
+
+=== REQUEST
+include::{snippets}/user-create/http-request.adoc[]
+
+=== RESPONSE
+include::{snippets}/user-create/http-response.adoc[]
+
+include::{snippets}/user-create/response-fields.adoc[]
+== 유저 삭제
+
+=== REQUEST
+
+=== RESPONSE
