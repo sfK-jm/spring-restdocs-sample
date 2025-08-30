@@ -15,12 +15,33 @@ endif::[]
 === REQUEST
 include::{snippets}/user-create/http-request.adoc[]
 
+include::{snippets}/user-create/request-fields.adoc[]
+
 === RESPONSE
 include::{snippets}/user-create/http-response.adoc[]
 
 include::{snippets}/user-create/response-fields.adoc[]
+
 == 유저 삭제
 
 === REQUEST
 
+include::{snippets}/user-delete/http-request.adoc[]
+
+include::{snippets}/user-delete/path-parameters.adoc[]
+
 === RESPONSE
+
+include::{snippets}/user-delete/http-response.adoc[]
+
+== 유저 조회
+
+=== REQUEST
+
+include::{snippets}/user-find/http-request.adoc[]
+include::{snippets}/user-find/path-parameters.adoc[]
+
+=== RESPONSE
+
+include::{snippets}/user-find/response-body.adoc[]
+include::{snippets}/user-find/response-fields.adoc[]
